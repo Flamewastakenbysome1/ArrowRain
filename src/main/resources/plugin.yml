@@ -1,0 +1,14 @@
+name: ArrowRain
+version: 1.0
+main: com.ngp.arrowrain.ArrowRainPlugin
+api-version: '1.21'
+folia-supported: true
+commands:
+  arrowrain:
+    description: Makes flaming arrows rain from the sky
+    usage: /arrowrain <player> <seconds> [true/false]
+    permission: arrowrain.use
+permissions:
+  arrowrain.use:
+    description: Allows use of /arrowrain
+    default: op
