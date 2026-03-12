@@ -1,0 +1,47 @@
+# Main Config
+max-duration: 300
+default-radius: 24
+default-height: 28
+arrow-damage: 4.0
+default-density: 10
+language: en
+
+# no touchy >:(
+# unless you wanna die D:
+messages:
+  en:
+    rain-started: "&6☠ Arrow rain started on {player} for {seconds} seconds!"
+    rain-capped: "&eWarning: Duration capped to {max} seconds!"
+    rain-ended: "&e☠ Arrow rain has ended!"
+    rain-stopped-sender: "&e☠ Arrow rain stopped for {player}!"
+    rain-stopped-target: "&e☠ Arrow rain was stopped!"
+    rain-incoming: "&c☠ INCOMING ARROW RAIN!"
+    no-active-rains: "&eNo active arrow rains!"
+    active-rains: "&6Active arrow rains: &f{list}"
+    no-rain-for-player: "&cNo active arrow rain for {player}!"
+    player-not-found: "&cPlayer not found!"
+    seconds-not-number: "&cSeconds must be a number!"
+    radius-not-number: "&cRadius must be a number!"
+    density-not-number: "&cDensity must be a number!"
+    usage: "&cUsage: /arrowrain <player> <seconds> [true/false] [follow/static] [radius] [density]"
+    usage-stop: "&c       /arrowrain stop <player>"
+    usage-list: "&c       /arrowrain list"
+    update-available: "&e[ArrowRain] &aA new update is available: &f{version}&a! Download it on Modrinth."
+  es:
+    rain-started: "&6☠ ¡Lluvia de flechas iniciada en {player} por {seconds} segundos!"
+    rain-capped: "&e¡Advertencia: Duración limitada a {max} segundos!"
+    rain-ended: "&e☠ ¡La lluvia de flechas ha terminado!"
+    rain-stopped-sender: "&e☠ ¡Lluvia de flechas detenida para {player}!"
+    rain-stopped-target: "&e☠ ¡La lluvia de flechas fue detenida!"
+    rain-incoming: "&c☠ ¡LLUVIA DE FLECHAS ENTRANTE!"
+    no-active-rains: "&eNo hay lluvias de flechas activas!"
+    active-rains: "&6Lluvias de flechas activas: &f{list}"
+    no-rain-for-player: "&cNo hay lluvia de flechas activa para {player}!"
+    player-not-found: "&cJugador no encontrado!"
+    seconds-not-number: "&cLos segundos deben ser un número!"
+    radius-not-number: "&cEl radio debe ser un número!"
+    density-not-number: "&cLa densidad debe ser un número!"
+    usage: "&cUso: /arrowrain <jugador> <segundos> [true/false] [follow/static] [radio] [densidad]"
+    usage-stop: "&c       /arrowrain stop <jugador>"
+    usage-list: "&c       /arrowrain list"
+    update-available: "&e[ArrowRain] &a¡Nueva actualización disponible: &f{version}&a! Descárgala en Modrinth."
